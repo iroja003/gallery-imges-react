@@ -3,9 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
 import Card from './Components/Card/Card';
 import Footer from './Components/Footer/Footer';
-//import {Col, Container, Row} from 'react-bootstrap';
-//
-//import Card from 'react-bootstrap/Card';
 
 
 function App() {
@@ -54,23 +51,3 @@ function App() {
 }
 
 export default App;
-
-/*
-
-         {acards.map(acard => {return(<Card imgsrc={acard.imgsrc} title={acard.title} description={acard.description}  />)})}  
-
-     <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-*/

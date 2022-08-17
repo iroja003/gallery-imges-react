@@ -1,7 +1,7 @@
 import React from 'react'
 import {fontawesomeIcon} from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-solid-svg-icons';
-// BsFillArrowDownCircleFill
+
 
 const Footer = () => {
   return (
